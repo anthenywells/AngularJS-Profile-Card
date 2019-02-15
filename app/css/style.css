@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+  background-color:#eee;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+  width: 400px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(204,204,204,1);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height:200px;
+  background-color: #1ECEFD;
+  border-radius: 15px 15px 0 0;
+}
+.profile-img img {
+  width: 125px;
+  height: auto;
+}
+
+.profile {
+  width: 340px;
+  display:flex;
+  flex-direction: column;
+  margin-left:30px;
+}
+
+.profile p {
+  margin: 5px;
+}
+.profile p:nth-child(1){
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 0;
+}
+.profile p:nth-child(2){
+  color: #bbb;
+  margin-top:0;
+}
+
+.edit-p {
+  color:#505355;
+  font-size: 1em;
+}
+.edit-form {
+  width: 340px;
+  display:flex;
+  flex-direction: column;
+  /* background: #505355; */
+}
+.edit-form input {
+  padding: 10px 14px;
+  border-radius: 15px;
+  border:solid 1px black;
+  margin: 10px 0 20px 0;
+}
+.edit-form label {
+  color: #1ECEFD;
+}
+
+button {
+  color: #fff;
+  background-color: #505355;
+  font-size: 1em;
+  padding: 8px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #5BECD8;
+}
