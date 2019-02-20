@@ -7,17 +7,17 @@ const compTwo = {
   <label for="name">Name</label>
   <input type="text"
     ng-model="$ctrl.userProfile.name"
-    ></input>
+    >
     
   <label for="contact">Contact</label>
   <input type="text"
     ng-model="$ctrl.userProfile.contact"
-    ></input>
+    >
 
   <label for="bio">Bio</label>
   <input type="text"
     ng-model="$ctrl.userProfile.bio"
-    ></input>
+    >
 
   <button 
   ng-click="$ctrl.update($ctrl.userProfile);"
